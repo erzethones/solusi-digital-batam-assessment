@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-sidebar: #275f82;
+  --color-topbar: #0D3B57;
+  --color-sidebar-active-bg-2: #0d3b576f;
+  --color-bg: #F0F4F7;
+  --color-white: #FFFFFF;
+  --color-primary: #275f82;
+  --color-accent: #0099CC;
+  --color-accent-hover: #007AAA;
+  --color-border: #E2E8F0;
+  --color-border-card: #DDE3EA;
+  --color-text-primary: #1A2E3B;
+  --color-text-secondary: #8896A4;
+  --color-text-muted: #A0AEBA;
+  --color-text-sidebar: #C8D8E4;
+  --color-text-sidebar-active: #FFFFFF;
+  --color-badge-new-bg: #bbd020;
+  --color-badge-new-text: #3A5200;
+  --color-badge-nav-bg: #0099CC;
+  --color-badge-nav-text: #FFFFFF;
+  --color-coin: #F5A800;
+  --color-success: #22a96e;
+  --color-success-hover: #1a8a58;
+  --color-danger: #DC3545;
+  --color-danger-hover: #B02A37;
+  --color-btn-secure-disabled: #C8D0D8;
+  --color-banner-bg: #D9EEF8;
+  --color-banner-border: #A8D4EC;
+  --color-sidebar-active-bg: rgba(255,255,255,0.10);
+  --color-sidebar-hover-bg: rgba(255,255,255,0.06);
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 15px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 22px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-card: 0 1px 4px rgba(0,0,0,0.08);
+  --sidebar-width: 200px;
+  --topbar-height: 70px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+  height: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+[role="button"],
+label[for] {
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
+
+/* ── Global keyframes ── */
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeSlideUp {
+  from { opacity: 1; transform: translateY(0); max-height: 200px; }
+  to   { opacity: 0; transform: translateY(-12px); max-height: 0; }
+}
+
+@keyframes neuPop {
+  0%   { opacity: 0; transform: rotate(-45deg) scale(0.4); }
+  70%  { opacity: 1; transform: rotate(-45deg) scale(1.12); }
+  100% { opacity: 1; transform: rotate(-45deg) scale(1); }
+}
+
+@keyframes cardEntrance {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes tabUnderlineSlide {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}

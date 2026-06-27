@@ -1,0 +1,100 @@
+{
+  "navigation": [
+    {"id":1,"label":"Übersicht","icon":"home","href":"/","badge":null,"subItems":[]},
+    {"id":2,"label":"Rechtsfälle","icon":"scale","href":"/rechtsfaelle","badge":3,"subItems":[]},
+    {"id":3,"label":"Rechtsfragen","icon":"question","href":"/rechtsfragen","badge":3,"active":true,"iconColor":"#bbd020","badgeVariant":"new","subItems":[
+      {"id":"3a","label":"Verfügbare Fragen","href":"/rechtsfragen/verfuegbar","active":true},
+      {"id":"3b","label":"Meine Fragen","href":"/rechtsfragen/meine","active":false}
+    ]},
+    {"id":4,"label":"Profil","icon":"person","href":"/profil","badge":null,"subItems":[]},
+    {"id":5,"label":"Kalender","icon":"calendar","href":"/kalender","badge":null,"subItems":[]}
+  ],
+  "navigationSpecial": [
+    {"id":6,"label":"Fortbildung","icon":"book","href":"/fortbildung","badge":null,"subItems":[]}
+  ],
+  "filters": [
+    {"id":"all","label":"Alle anzeigen","icon":"list","active":true},
+    {"id":"new","label":"Nur neue","icon":"megaphone","active":false},
+    {"id":"standard","label":"Nur Standard","icon":"euroTriple","euroLevel":1,"active":false},
+    {"id":"plus","label":"Nur Plus","icon":"euroTriple","euroLevel":2,"active":false},
+    {"id":"premium","label":"Nur Premium","icon":"euroTriple","euroLevel":3,"active":false}
+  ],
+  "cards": [
+    {
+      "id":"c1","isNew":true,"expanded":false,
+      "category":"Markenrecht",
+      "requester":{"name":"M. Fröhlich","avatarInitials":"MF","avatarSrc":"/avatar-requester.jpg"},
+      "createdAt":"Vor 3 min",
+      "package":{"name":"Premium","subtitle":"inkl. Zertifikat"},
+      "compensation":30,"status":"available",
+      "content":"Croissant jujubes cookie carrot cake sweet. Liquorice danish carrot cake topping cheesecake. Sugar plum donut dessert jelly chocolate jelly croissant. Sugar plum pastry croissant tootsie roll fruitcake caramels cupcake jujubes apple pie. Fruitcake sweet gummi bears cupcake pastry topping. Cookie pudding croissant chupa chups lollipop wafer bear claw lollipop cookie. Caramels halvah marshmallow danish wafer pudding sweet topping muffin. Chupa chups bonbon brownie cake tiramisu sweet roll. Ice cream ice cream dessert marshmallow gingerbread."
+    },
+    {
+      "id":"c2","isNew":true,"expanded":true,
+      "category":"Markenrecht",
+      "requester":{"name":"M. Fröhlich","avatarInitials":"MF","avatarSrc":"/avatar-requester.jpg"},
+      "createdAt":"Vor 3 min",
+      "package":{"name":"Premium","subtitle":"inkl. Zertifikat"},
+      "compensation":30,"status":"available",
+      "content":"Croissant jujubes cookie carrot cake sweet. Liquorice danish carrot cake topping cheesecake. Sugar plum donut dessert jelly chocolate jelly croissant. Sugar plum pastry croissant tootsie roll fruitcake caramels cupcake jujubes apple pie. Fruitcake sweet gummi bears cupcake pastry topping. Cookie pudding croissant chupa chups lollipop wafer bear claw lollipop cookie. Caramels halvah marshmallow danish wafer pudding sweet topping muffin. Chupa chups bonbon brownie cake tiramisu sweet roll. Ice cream ice cream dessert marshmallow gingerbread."
+    },
+    {
+      "id":"c3","isNew":true,"expanded":false,
+      "category":"Markenrecht",
+      "requester":{"name":"M. Fröhlich","avatarInitials":"MF","avatarSrc":"/avatar-requester.jpg"},
+      "createdAt":"Vor 3 min",
+      "package":{"name":"Plus","subtitle":"inkl. Rechtsbelege"},
+      "compensation":20,"status":"disabled",
+      "content":"Croissant jujubes cookie carrot cake sweet. Liquorice danish carrot cake topping cheesecake."
+    },
+    {
+      "id":"c4","isNew":true,"expanded":false,
+      "category":"Markenrecht",
+      "requester":{"name":"M. Fröhlich","avatarInitials":"MF","avatarSrc":"/avatar-requester.jpg"},
+      "createdAt":"Vor 3 min",
+      "package":{"name":"Standart","subtitle":"inkl. Chat"},
+      "compensation":10,"status":"available",
+      "content":"Croissant jujubes cookie carrot cake sweet. Liquorice danish carrot cake topping cheesecake."
+    }
+  ],
+  "olderCards": [
+    {
+      "id":"c5","isNew":false,"expanded":false,
+      "category":"Markenrecht",
+      "requester":{"name":"M. Fröhlich","avatarInitials":"MF","avatarSrc":"/avatar-requester.jpg"},
+      "createdAt":"Vor 3 min",
+      "package":{"name":"Premium","subtitle":"inkl. Zertifikat"},
+      "compensation":30,"status":"available",
+      "content":"Croissant jujubes cookie carrot cake sweet. Liquorice danish carrot cake topping cheesecake."
+    }
+  ],
+  "banner": {
+    "title":"Jetzt neu: Rechtsfragen mit pauschaler Vergütung",
+    "subtitle":"Verdienen Sie jetzt in wenigen Minuten zwischen 10 € und 20 € für die Beantwortung einer Rechtsfrage – ganz ohne Mandat",
+    "dismissible":true
+  },
+  "user": {"name":"Reza F Budiono","avatarInitials":"RF","avatarSrc":"/avatar-user.jpg"},
+  "breadcrumb": [
+    {"label":"Anwaltsbereich","href":"/"},
+    {"label":"Rechtsfragen","icon":"question","iconColor":"#bbd020","href":"/rechtsfragen"}
+  ],
+  "labels": {
+    "pageTitle":"Rechtsfragen",
+    "sortButton":"Sortieren",
+    "filterButton":"Filter",
+    "secureButton":"Sichern",
+    "reportButton":"Melden",
+    "wrongCategoryButton":"Falsches Rechtsgebiet",
+    "questionContentTitle":"Rechtsfrage",
+    "olderSectionLabel":"Ältere Rechtsfragen",
+    "searchPlaceholder":"Rechtsfrage suchen",
+    "specialSectionLabel":"SPECIAL",
+    "tableHeaders":{
+      "category":"Rechtsgebiet",
+      "requester":"Fragesteller",
+      "created":"Erstellt",
+      "package":"Paket",
+      "compensation":"Vergütung (brutto)"
+    }
+  }
+}

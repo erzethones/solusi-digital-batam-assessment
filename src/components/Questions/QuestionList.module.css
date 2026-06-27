@@ -1,0 +1,95 @@
+.listWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.tableHeaders {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 16px 6px 16px;
+  margin-bottom: 6px;
+}
+
+.headerColCategory {
+  min-width: 140px;
+  flex: 1.2;
+  padding-left: 32px;
+}
+
+.headerColRequester {
+  min-width: 120px;
+  flex: 1;
+}
+
+.headerColCreated {
+  min-width: 90px;
+  flex: 0.8;
+}
+
+.headerColPackage {
+  min-width: 100px;
+  flex: 0.9;
+}
+
+.headerColCompensation {
+  min-width: 110px;
+  flex: 1;
+}
+
+.headerColActions {
+  flex-shrink: 0;
+  width: 106px;
+}
+
+.headerText {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.cardsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.sectionDivider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0 12px;
+}
+
+.sectionDividerLine {
+  flex: 1;
+  height: 1px;
+  background-color: var(--color-border);
+}
+
+.sectionDividerLabel {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+@media (max-width: 1100px) {
+  .headerColCreated,
+  .headerColPackage {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerColRequester {
+    display: none;
+  }
+
+  .tableHeaders {
+    padding: 6px 12px;
+  }
+}

@@ -1,0 +1,19 @@
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+
+.tagDefault {
+  background-color: var(--color-border);
+  color: var(--color-text-secondary);
+}
+
+.tagPackage {
+  background-color: rgba(0, 153, 204, 0.1);
+  color: var(--color-accent);
+  border: 1px solid rgba(0, 153, 204, 0.2);
+}
