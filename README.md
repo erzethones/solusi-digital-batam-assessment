@@ -4,6 +4,8 @@
 
 Pixel-perfect React implementation of the **advocado** legal marketplace UI, built from a design reference image. No external UI libraries — everything built from scratch.
 
+![Desktop Preview](design-reference/screencapture-desktop-mode-advocado.png)
+
 ---
 
 ## Tech Stack
